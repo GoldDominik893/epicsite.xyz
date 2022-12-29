@@ -1,0 +1,90 @@
+<html>
+<style>
+body {
+  background-image: url('rr.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+</style>
+<script>function json(url){return fetch(url).then(res => res.json());}json(`https://yeessss.herokuapp.com?format=json`).then(data => {console.log(data.ip);document.getElementById('ip').innerHTML = data.ip;  });
+</script>
+</head>
+<body>
+
+<div id="info">
+<big>
+<center>
+<h1 class="rainbow-text">IP Grabber Beta 0.9</h1>
+<h1 class="rainbow-text">Your IPv4 is:</h1>
+<h1 id="ip" class="rainbow-text"></h1>
+<h6 class="rainbow-texts">Your IP, Social security number, address, and bank details have been saved in my database.</h6>
+</center>
+</big>
+</div>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+body { 
+  font-family: 'Signika Negative', sans;
+}
+.wrapper {
+  max-width: 728px;
+}
+.rainbow-text:hover {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 66px;
+  animation: rainbow 8s ease infinite;
+}
+.rainbow-text {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  animation: rainbow 8s ease infinite;
+}
+.rainbow-texts:hover {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  animation: rainbow 8s ease infinite;
+}
+.rainbow-texts {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 14px;
+  animation: rainbow 8s ease infinite;
+}
+@keyframes rainbow { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 25%}
+  100%{background-position:0% 50%}
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
+  height: 10;
+}
+::selection {
+    background-color: rgba(0,0,0,0.6)
+}
+</style>
+</head>
+</body>
+</html>
