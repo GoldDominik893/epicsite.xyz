@@ -1,0 +1,62 @@
+/* Default styles for all screen sizes */
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('../media/master.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+a {
+    color: #3486ca;
+    text-decoration: none;
+    transition: transform 0.2s;
+    transition: 0.3s
+}
+
+a:hover {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #f44;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* 20px spacing between quadrants */
+    padding: 20px; /* 20px margin around the container */
+}
+
+.quadrant {
+    background-color: rgba(17, 17, 17, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    min-height: calc(50vh - 40px); /* Adjusted for 20px spacing and 20px margins */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+/* Media query for smaller screens (e.g., phones) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px; /* Adjust the spacing if needed */
+    }
+
+    .quadrant {
+        min-height: calc(25vh - 20px); /* Adjusted for 20px spacing and 20px margins */
+    }
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
