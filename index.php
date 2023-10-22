@@ -22,7 +22,17 @@
         </div>
         <div class="quadrant">
             <h1>Contact</h1>
-            
+            <a href="mailto: admin@epicsite.xyz">Email: admin@epicsite.xyz</a><br>
+            <a href="//github.com/golddominik893">GitHub: GoldDominik893</a><br>
+            <a href="//matrix.to/#/@golddominik893:matrix.org">Matrix: @golddominik893:matrix.org</a><br>
+            <a href="//discord.com/users/534997987424993280/">Discord: g893</a><br>
+            <a href="//youtube.com/golddominik893">YouTube: @GoldDominik893</a><br>
+            <a href="//unsplash.com/@golddominik893">Unsplash: @golddominik893</a><br>
+            <a href="//x.com/golddominik893">X: @GoldDominik893</a><br>
+            <a href="//twitch.tv/golddominik893">Twitch: GoldDominik893</a><br>
+            <a href="//steam.com/@golddominik893">Steam: @GoldDominik893</a><br>
+            <a href="//steamcommunity.com/profiles/76561199049401833">Reddit: Gold450</a><br>
+            <a href="//paypal.me/dominik8931">PayPal: @dominik8931</a><br>
         </div>
         <div class="quadrant">
             <h1>Projects</h1>
