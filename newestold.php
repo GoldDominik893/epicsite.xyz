@@ -33,6 +33,7 @@
             <a href="//steam.com/@golddominik893">Steam: @GoldDominik893</a><br>
             <a href="//steamcommunity.com/profiles/76561199049401833">Reddit: Gold450</a><br>
             <a href="//paypal.me/dominik8931">PayPal: @dominik8931</a><br>
+            <a href="//namemc.com/profile/GoldDominik893">Minecraft: GoldDominik893</a><br>
         </div>
         <div class="quadrant">
             <h1>Projects</h1>
