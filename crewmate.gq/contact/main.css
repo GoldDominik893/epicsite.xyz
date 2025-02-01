@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(-45deg, #44bafe, #3df6fc, #7162fa, #623AFF);
+    background-size: 600% 600%;
+    animation: background-gradient 10s ease infinite;
+    text-align: center;
+    font-family: 'Signika Negative', sans;
+    font-size: small;
+}
+a:hover, a:active {
+    color: purple;
+    text-decoration: underline;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::selection {
+    color: #801AE3;
+    background-color: #00000000;
+}
+@keyframes background-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
